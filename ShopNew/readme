@@ -1,0 +1,68 @@
+ 🛍️ ShopNew - E-Commerce Platform Database (MySQL)
+Welcome to the official MySQL schema for **ShopNew**, a robust and scalable eCommerce platform built to support modern online shopping experiences. This database powers essential functionalities like product management, user authentication, cart handling, orders, payments, reviews, coupons, inventory tracking, and more.
+
+ 📦 Features
+- ✅ User registration and role-based access (Admin/User)
+- 🛒 Product catalog with categories and subcategories
+- 🧺 Shopping cart and wishlist functionality
+- 📦 Order processing with tracking and status updates
+- 💳 Payments and coupon discounts
+- 🚚 Shipping and return management
+- ⭐ Product reviews and ratings
+- 🛠️ Admin actions and logs
+- 📈 Scalable inventory system
+- 🔔 Notifications and messaging support
+
+ 🛠️ Technologies Used
+- **Database**: MySQL (Structured Query Language)
+- **Normalization**: 3NF-compliant for minimal redundancy
+- **Security**: Password hashing support (via external application layer)
+- **Data Integrity**: Foreign keys, ENUMs, constraints
+
+
+ 🗃️ Database Structure Overview
+| Table | Description |
+|-------|-------------|
+| `Users` | Stores user information including admins |
+| `Categories`, `SubCategories` | Organizes products for easy browsing |
+| `Products`, `ProductImages` | Core product listings with multimedia support |
+| `Inventory` | Tracks product stock and stock movements |
+| `Cart`, `CartItems` | User shopping cart system |
+| `Orders`, `OrderItems` | Captures order lifecycle and contents |
+| `Payments` | Records all payment transactions |
+| `Shipping` | Manages courier and delivery details |
+| `Reviews` | User feedback and product ratings |
+| `Wishlist`, `WishlistItems` | Personal product lists |
+| `Coupons`, `UserCoupons` | Promotional discounts and redemption tracking |
+| `Messages`, `Notifications` | Platform communication channels |
+| `AdminLogs` | Audit logs for administrator actions |
+| `Returns` | Product return requests and processing |
+| `Addresses` | User shipping and billing addresses |
+
+ 🔧 Prerequisites
+- MySQL 8.x or higher
+- MySQL Workbench or any SQL editor
+- A local server environment like XAMPP, MAMP, or Docker (optional)
+
+ 🧪 Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://http://github.com/khadkeyashc/Database-Projects/new/main/ShopNew.git
+   cd shopnew-ecommerce-mysql
+
+2) **Open MySQL Workbench**
+Import the SQL File
+Load shopnew_schema.sql
+Execute the script to create all tables
+Integrate with Backend
+Use this schema in your backend (Node.js, Django, Laravel, etc.)
+
+📈 Future Enhancements
+Add stored procedures and triggers
+Include sample seed data
+Connect to a backend service (Node.js, Django, etc.)
+Enable full-text search on products
+Integrate multi-vendor support
+Add support for multi-language/localization
+
