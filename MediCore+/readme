@@ -1,0 +1,25 @@
+# MediCore+ Hospital Management System
+
+MediCore+ is a robust SQL-based Hospital Management System designed for healthcare institutions. It models complex hospital workflows including patient management, appointments, medical staff, prescriptions, inventory, transport, and billing.
+
+## 🔍 Features
+
+- 15+ interrelated tables
+- Patient and staff management
+- Doctor appointments and prescriptions
+- Medical tests and results tracking
+- Ambulance transport requests
+- Billing and feedback system
+- Inventory and reorder management
+- Sample queries for searching data
+- Stored procedure to bulk-generate test data
+
+## 🧰 Technologies
+- SQL (MySQL)
+- Relational database concepts
+- Data normalization & constraints
+
+## 📁 How to Use
+1. Copy and paste the `.sql` file into MySQL Workbench or any compatible SQL environment.
+2. Run the script to create and populate the database.
+3. Use the queries to interact and test the system.
