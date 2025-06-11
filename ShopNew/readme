@@ -58,11 +58,5 @@ Execute the script to create all tables
 Integrate with Backend
 Use this schema in your backend (Node.js, Django, Laravel, etc.)
 
-📈 Future Enhancements
-Add stored procedures and triggers
-Include sample seed data
-Connect to a backend service (Node.js, Django, etc.)
-Enable full-text search on products
-Integrate multi-vendor support
-Add support for multi-language/localization
+
 
